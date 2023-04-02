@@ -13,8 +13,7 @@ const rl = readline.createInterface({
 
 // the function that will be called by the unit test below
 const rockPaperScissors = (hand1, hand2) => {
-  console.log("hand1:", hand1)
-  console.log("hand2:", hand2)
+
   if(hand1.toLowerCase().trim()!= 'paper' && hand1.toLowerCase().trim()!= 'rock' && hand1.toLowerCase().trim()!= 'scissors'){
     return "Invalid input for Hand1"
   }
